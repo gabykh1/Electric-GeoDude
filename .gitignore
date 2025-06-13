@@ -1,0 +1,23 @@
+# Ignore Python virtual environment
+.venv/
+
+# Ignore build artifacts
+build/
+dist/
+*.exe
+*.spec
+
+# Ignore database files
+*.db
+
+# Ignore CSV files
+*.csv
+
+# Ignore PyCharm project files
+.idea/
+
+# Ignore Streamlit config
+.streamlit/
+
+# Ignore Windows shortcuts
+*.lnk
