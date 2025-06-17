@@ -40,7 +40,7 @@ def load_data(query, params=()):
     conn = sqlite3.connect(DB_PATH)
     df = pd.read_sql_query(query, conn, params=params)
     conn.close()
-    return df'''
+    return df ```markdown
 
 ![image](https://github.com/user-attachments/assets/e79feac7-8f54-4aff-98cf-93929c3439d2)
 
