@@ -40,7 +40,7 @@ def load_data(query, params=()):
     conn = sqlite3.connect(DB_PATH)
     df = pd.read_sql_query(query, conn, params=params)
     conn.close()
-    return df
+    return df'''
 
 ![image](https://github.com/user-attachments/assets/e79feac7-8f54-4aff-98cf-93929c3439d2)
 
@@ -48,6 +48,7 @@ This function loads data from the SQLite database and caches it using @st.cache_
 It uses parameterized queries for security — protecting against SQL injection.
 
 --- Example of function
+```python
 def query_by_person(first_name=None, last_name=None, city=None):
     query = "SELECT * FROM elector WHERE 1=1"
     params = []
