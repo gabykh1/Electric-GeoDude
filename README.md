@@ -117,23 +117,22 @@ Explore how the app works with real use cases. Each demo shows a different type 
 ---
 
 ### 🗺️ Geo Analysis (Search by Coordinates + Radius)
-
-https://github.com/user-attachments/assets/e4cbcd56-afd1-4788-bc59-efb64a1c993a
+[Click here to watch the demo video](https://github.com/user-attachments/assets/e4cbcd56-afd1-4788-bc59-efb64a1c993a)
 ---
 
 ### 👥 Search by First Name
+[Click here to watch the demo video](https://github.com/user-attachments/assets/44473dbd-cfc2-4690-bc76-f3ba44fc321e)
+---
 
-https://github.com/user-attachments/assets/44473dbd-cfc2-4690-bc76-f3ba44fc321e
+### 🏘️ Search by Last Name
+[Click here to watch the demo video](https://github.com/user-attachments/assets/5500718a-649f-4dee-9b21-e093eda0466b)
 ---
 
 ### 🏘️ Search by Name and Address
-
-
+[Click here to watch the demo video](https://github.com/user-attachments/assets/37e11b4a-9cc2-4664-80c3-b9017bdcd82c)
 ---
-
 ### 📬 Sending Mail Through the App
-
-
+[Click here to watch the demo video](https://github.com/user-attachments/assets/f177d0e2-80b6-4b77-9eef-287b8a07ea8f)
 ---
 
 
