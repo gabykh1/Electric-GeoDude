@@ -126,11 +126,10 @@ Explore how the app works with real use cases. Each demo shows a different type 
 
 ---
 
-### 🏘️ Search by Last Name
+### 🤵 Search by Last Name
 [Click here to watch the demo video](https://github.com/user-attachments/assets/5500718a-649f-4dee-9b21-e093eda0466b)
 
 ---
-
 
 ### 🏘️ Search by Name and Address
 [Click here to watch the demo video](https://github.com/user-attachments/assets/37e11b4a-9cc2-4664-80c3-b9017bdcd82c)
