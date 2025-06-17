@@ -1,3 +1,5 @@
+
+https://github.com/user-attachments/assets/0d1b9871-270d-49c5-8c73-734ec76507e4
 <!-- Banner -->
 <p align="center">
   <img src="banner.jpg" alt="Electric GeoDude Banner" width="100%">
@@ -122,7 +124,7 @@ Explore how the app works with real use cases. Each demo shows a different type 
 ---
 
 ### 👥 Search by First Name
-[Click here to watch the demo video](https://github.com/user-attachments/assets/44473dbd-cfc2-4690-bc76-f3ba44fc321e)
+[Click here to watch the demo video](https://github.com/user-attachments/assets/a8ac9708-5255-4316-8774-f1c6d68d1fe7)
 
 ---
 
