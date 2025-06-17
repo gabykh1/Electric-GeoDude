@@ -5,7 +5,7 @@
 
 <!-- Logo -->
 <p align="center">
-  <img src="logo.png" alt="GeoDude Logo" width="100">
+  <img src="logo.png" alt="GeoDude Logo" width="200">
 </p>
 
 <h1 align="center">Electric GeoDude</h1>
