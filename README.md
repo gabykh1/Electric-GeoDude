@@ -50,6 +50,7 @@ This function loads data from the SQLite database and caches it using @st.cache_
 It uses parameterized queries for security — protecting against SQL injection.
 
 --- Example of function
+
 ```python
 def query_by_person(first_name=None, last_name=None, city=None):
     query = "SELECT * FROM elector WHERE 1=1"
@@ -65,6 +66,7 @@ def query_by_person(first_name=None, last_name=None, city=None):
         params.append(f"%{city.strip()}%")
     query += " LIMIT 100"
     return load_data(query, tuple(params))
+```
 ![image](https://github.com/user-attachments/assets/b0eb42eb-a32f-4d78-b42b-357a455ab415)
 This function is built to be flexible and forgiving:
 
@@ -77,6 +79,7 @@ This is achieved by starting the SQL with WHERE 1=1 - then adding conditions onl
 This allows the function to work with at least one input instead of requiring all fields.
 
 --- Example of function
+```python
 def query_by_coordinates(coord_text, buffer_distance=30):
     lat, lon = parse_coordinates(coord_text)
     point = Point(lon, lat)
@@ -99,13 +102,19 @@ def query_by_coordinates(coord_text, buffer_distance=30):
 ![image](https://github.com/user-attachments/assets/f6467c52-fb0b-4e17-9c45-861a19cbeecd)
 This function lets users input a pair of coordinates and a search radius.
 Here's how it works:
+```
+
+
 
 1. Converts the coordinates into a GeoPandas point in metric CRS
 
 2. Builds a circular buffer around the point using gdf.geometry.buffer(buffer_distance)
 
 3. Extracts a bounding box to pre-filter results with a fast SQL query:
+
+```SQL
 WHERE lat BETWEEN ? AND ? AND lon BETWEEN ? AND ?
+```
 This makes the query much faster.
 
 Then it filters the results precisely by checking which points fall inside the buffer polygon.
