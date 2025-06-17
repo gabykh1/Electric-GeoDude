@@ -33,7 +33,7 @@ The app uses a custom-built SQLite database created from **scraped leaked data**
 ---
 
 ### ⚡️ Loading the Data
-
+```markdown
 ```python
 @st.cache_data
 def load_data(query, params=()):
@@ -41,6 +41,7 @@ def load_data(query, params=()):
     df = pd.read_sql_query(query, conn, params=params)
     conn.close()
     return df
+
 ![image](https://github.com/user-attachments/assets/e79feac7-8f54-4aff-98cf-93929c3439d2)
 
 This function loads data from the SQLite database and caches it using @st.cache_data, so repeated queries are fast.
