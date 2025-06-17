@@ -7,7 +7,7 @@
 <p align="center">
   <img src="logo.png" alt="GeoDude Logo" width="500">
 </p>
-< br / >
+< br / > < br \ >
 Electric GeoDude is a private Streamlit web app designed to search through a geo-tagged database of leaked information.
 
 Users can search by:
