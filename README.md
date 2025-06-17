@@ -1,5 +1,3 @@
-
-https://github.com/user-attachments/assets/0d1b9871-270d-49c5-8c73-734ec76507e4
 <!-- Banner -->
 <p align="center">
   <img src="banner.jpg" alt="Electric GeoDude Banner" width="100%">
