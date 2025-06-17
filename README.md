@@ -30,17 +30,19 @@ And instantly receive results displayed on an interactive map, without needing a
 
 The app uses a custom-built SQLite database created from **scraped leaked data**, enhanced with **Google Maps API geocoding** to add accurate latitude and longitude for each record. The result is a powerful and flexible database you can query by name, address, coordinates, or ID.
 
----
+
 
 ### ⚡️ Loading the Data
-```markdown
+
 ```python
 @st.cache_data
 def load_data(query, params=()):
     conn = sqlite3.connect(DB_PATH)
     df = pd.read_sql_query(query, conn, params=params)
     conn.close()
-    return df ```markdown
+    return df
+```
+
 
 ![image](https://github.com/user-attachments/assets/e79feac7-8f54-4aff-98cf-93929c3439d2)
 
