@@ -5,9 +5,6 @@
 
 <!-- Logo -->
 <p align="center">
-  <img src="logo.png" alt="GeoDude Logo" width="200">
+  <img src="logo.png" alt="GeoDude Logo" width="500">
 </p>
-
-<h1 align="center">Electric GeoDude</h1>
-
 <p align="center"><i>Rock-Solid Accuracy, Lightning-Fast Results</i></p>
