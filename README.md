@@ -7,7 +7,7 @@
 <p align="center">
   <img src="logo.png" alt="GeoDude Logo" width="500">
 </p>
-< br / > < br \ >
+
 Electric GeoDude is a private Streamlit web app designed to search through a geo-tagged database of leaked information.
 
 Users can search by:
@@ -19,4 +19,8 @@ Users can search by:
 And instantly receive results displayed on an interactive map, without needing any SQL knowledge.
 
 ⚠️ **Note:** Because the app uses leaked data, it is **not publicly deployed** and is shown here **for demonstration and educational purposes only**, to showcase the technology, not the content.
+
+### 🎥 Demo: App in Action
+
+[Click here to watch the demo video](https://github.com/user-attachments/assets/33066b38-85f8-4157-b39a-b6dfefd4e582)
 
