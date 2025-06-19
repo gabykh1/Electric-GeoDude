@@ -47,7 +47,7 @@ def load_data(query, params=()):
 ![image](https://github.com/user-attachments/assets/e79feac7-8f54-4aff-98cf-93929c3439d2)
 
 This function loads data from the SQLite database and caches it using @st.cache_data, so repeated queries are fast.
-It uses parameterized queries for security — protecting against SQL injection.
+It uses parameterized queries for security, protecting against SQL injection.
 
 ### ⚡️ Building the SQL query
 
